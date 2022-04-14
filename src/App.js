@@ -20,7 +20,7 @@ const App = () => {
 
     return (
         <NavigationContainer>
-            <Stack.Navigator>
+            <Stack.Navigator screenOptions={{headerShown:false}}>
                 <Stack.Screen name='Main' component={MainScreen} option={{title:'Main Screen'}}/>
                 <Stack.Screen name='Result' component={ResultScreen} option={{title:'Result Screen'}} />
             </Stack.Navigator>
